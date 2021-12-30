@@ -13,3 +13,17 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+- transparent and UUPS
+- review proxy / delegatecall
+- oz contracts (Proxy, ProxyAdmin and Implementation)
+- simple upgrade (initialize)
+- donts (constructor, uninitialezed, reorder storage, kill)
+
+- ERC20 upgrade
+
+```shell
+npx hardhat node
+npx hardhat run --network localhost scripts/deploy_box_v1.js
+npx hardhat run --network localhost scripts/upgrade_box_v2.js
+```
