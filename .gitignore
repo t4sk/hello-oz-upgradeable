@@ -106,3 +106,7 @@ package-lock.json
 
 artifacts
 cache
+
+.env
+.env.*
+!.env.sample
