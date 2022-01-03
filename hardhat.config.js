@@ -3,7 +3,7 @@ require("@openzeppelin/hardhat-upgrades");
 require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
-  solidity: "0.8.6",
+  solidity: "0.8.10",
   networks: {
     ropsten: {
       url: `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`,
