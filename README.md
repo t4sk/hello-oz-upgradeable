@@ -1,4 +1,4 @@
-# Basic Sample Hardhat Project
+# Hello Open Zeppelin Upgradeable Contracts
 
 - simple upgrade (deploy, verify, verify proxy, upgrade)
 - unsafe (constructor, uninitialezed, reorder storage, kill)
