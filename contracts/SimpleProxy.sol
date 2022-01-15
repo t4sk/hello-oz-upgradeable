@@ -30,7 +30,7 @@ contract SimpleProxy {
 
     fallback() external payable {
         _delegate(implementation);
-    }    
+    }
 }
 
 contract V1 {

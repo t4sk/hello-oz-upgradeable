@@ -1,8 +1,8 @@
 # Hello Open Zeppelin Upgradeable Contracts
 
-- [x] simple upgrade (deploy, verify, verify proxy, upgrade)
-- [ ] unsafe (constructor, initialize more than once, reorder storage, kill)
-- [ ] ERC20 upgrade
+-   [x] simple upgrade (deploy, verify, verify proxy, upgrade)
+-   [ ] unsafe (constructor, initialize more than once, reorder storage, kill)
+-   [ ] ERC20 upgrade
 
 ```shell
 npx hardhat compile

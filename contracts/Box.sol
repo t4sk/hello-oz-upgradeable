@@ -5,7 +5,7 @@ pragma solidity 0.8.10;
 proxy --> implementation
   ^
   |
-  | 
+  |
 proxy admin
 */
 
