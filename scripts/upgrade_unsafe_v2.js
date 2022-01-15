@@ -1,6 +1,6 @@
 const { ethers, upgrades } = require("hardhat");
 
-const PROXY = "0xD5177DE617540157404A3fbC4287eeD1C546646f";
+const PROXY = "0xC05d24b61d91b914D6f51A3Bd1AEC62cb42B04dD";
 
 async function main() {
     const UnsafeV2 = await ethers.getContractFactory("UnsafeV2");
